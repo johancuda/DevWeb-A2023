@@ -6,7 +6,7 @@ Bienvenue sur le repo contenant les exercices du cours de Développement Web don
 
 Les exercices se trouvent dans le dossier de leurs semaines respectives (par ex: Les exercices de la semaine 1 se trouvent dans le dossier 1).
 
-Les consignes plus précises sont disponibles sur la page de [résumé des séances](https://bit.ly/resumes-cours-ip)
+Les consignes plus précises sont disponibles sur la page de [résumé des séances](https://bit.ly/resumes-cours-ip).
 
 ## Liens utiles
 
