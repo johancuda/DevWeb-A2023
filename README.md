@@ -13,3 +13,4 @@ Les consignes plus précises sont disponibles sur la page de [résumé des séan
 - [FAQ](https://bit.ly/faq-cours-ip) des cours d'Isaac Pante
 - Lien vers [ce repo](https://github.com/johancuda/DevWeb-A2023)
 - [Résumé des séances](https://bit.ly/resumes-cours-ip)
+- - lien de la page d'exemple : [page-web-simple](https://github.com/johancuda/page-web-simple)
