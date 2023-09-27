@@ -1,0 +1,32 @@
+/* Mon super fichier CSS */
+
+/* Modifie toutes les balises <h1> */
+h1 {
+    color: rgb(23, 21, 149);
+    text-align: center;
+}
+
+/* Modifie toutes les balises <p> */
+p {
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    color: bisque;
+}
+
+/* Modifie toute la balise <body> */
+body {
+    background-color: greenyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+/* Modifie toutes les balises <a> */
+a {
+    color: brown;
+}
+
+/* Modifie toutes les balises <a> lorsque l'utilisateur.ice passe la souris dessus */
+a:hover {
+    color: pink;
+}
