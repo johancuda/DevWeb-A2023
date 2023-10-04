@@ -2,6 +2,10 @@
 
 Le but de cette série d'exercices est de vous entraîner à intéragir depuis la console Javascript avec une page web. 
 
+Si vous avez un doute sur comment ouvrir la console Javascript depuis votre navigateur, vous pouvez:
+- Clic-droite sur la page web et choisir `Inspecter`
+- Trouver le raccourci permettant d'0ouvrir la console sur votre naviteur [ici](https://balsamiq.com/support/faqs/browserconsole/#:~:text=Apple%20Safari,-Before%20you%20can&text=To%20do%20that%2C%20go%20into,shortcut%20Option%20%2B%20%E2%8C%98%20%2B%20C%20.).
+
 N'oubliez pas de consulter la [documentation](https://www.w3schools.com/jsref/dom_obj_document.asp) ainsi que le [résumé des séances](https://bit.ly/resumes-cours-ip). Il est normal que vous ne sachiez pas tout faire du premier coup, ne vous découragez pas et faites la navette entre la doc et le serveur d'entraide Discord au besoin. :)
 
 *(Un corrigé vous sera donné la semaine prochaine.)*
