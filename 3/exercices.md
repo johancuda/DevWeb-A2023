@@ -20,7 +20,7 @@ Commencez par vous rendre sur [cette page](https://johancuda.github.io/page-web-
 
 3. Récupérer toutes les balises `<div>` avec `querySelectorAll`.
 
-4. Récupérer la deuxième balise `<div>` avec `querySelectorAll`. (Pour rappel, récupérer la première balise `<p>` s'écrirait `document.querySelectorAll('p')[0]`)
+4. Récupérer la deuxième balise `<div>` avec `querySelectorAll`. (Pour rappel, récupérer la première balise `<p>` s'écrirait `document.querySelectorAll('p')[0]`).
 
 5. Récupérer l'URL de la page de manière programmatique ( Pour rappel, `document.location.href`).
 
@@ -32,6 +32,6 @@ Commencez par vous rendre sur [cette page](https://johancuda.github.io/page-web-
 
 1. Déclarer une variable `annee_courante` qui contiendra la valeure `2023` au moyen du mot-clé `let`.
 
-2. Déclarer une variable `annee_naissance` en lui affectant la valeure `1997`
+2. Déclarer une variable `annee_naissance` en lui affectant la valeure `1997`.
 
 3. Déclarer une variable `age` qui aura comme valeur la **différence** entre `annee_courante` et `annee_naissance`.
