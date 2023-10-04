@@ -6,6 +6,8 @@ N'oubliez pas de consulter la [documentation](https://www.w3schools.com/jsref/do
 
 *(Un corrigé vous sera donné la semaine prochaine.)*
 
+## Interactions avec le DOM
+
 Commencez par vous rendre sur [cette page](https://johancuda.github.io/page-web-simple/) et effectuez les opérations suivantes:
 
 1. Récupérer la première balise `<h1>` avec `querySelector`.
@@ -21,3 +23,11 @@ Commencez par vous rendre sur [cette page](https://johancuda.github.io/page-web-
 6. Changer la couleur de fond de la page au moyen de `document.body.style` et de l'attribut `backgroundColor`.
 
 7. *Bonus* : Compter le nombre de balises `<br>` présentent sur la page de la manière de votre choix.
+
+## Déclaration et modification de variables
+
+1. Déclarer une variable `annee_courante` qui contiendra la valeure `2023` au moyen du mot-clé `let`.
+
+2. Déclarer une variable `annee_naissance` en lui affectant la valeure `1997`
+
+3. Déclarer une variable `age` qui aura comme valeur la **différence** entre `annee_courante` et `annee_naissance`.
