@@ -28,6 +28,18 @@ Commencez par vous rendre sur [cette page](https://johancuda.github.io/page-web-
 
 7. *Bonus* : Compter le nombre de balises `<br>` présentent sur la page de la manière de votre choix.
 
+Rendez-vous ensuite sur [cette page](https://chludens.ch/) et effectuez les opérations suivantes:
+
+1. Changez le titre de la page.
+
+2. Changez une image de votre choix sur la page.
+
+3. Changez le premier lien de la page pour qu'il pointe vers la page de l'[UNIL](https://unil.ch).
+
+4. Trouvez xombien de liens contient cette page.
+
+Réalisez chacune de ces options via la console, en utilisant `document.querySelector` pour modifier les attributs et `innerText`, `innerHTML` et `textContent` pour modifier le contenu d'une balise.
+
 ## Déclaration et modification de variables
 
 1. Déclarer une variable `annee_courante` qui contiendra la valeure `2023` au moyen du mot-clé `let`.
