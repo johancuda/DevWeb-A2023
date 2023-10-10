@@ -27,7 +27,7 @@ let monLien = document.createElement("a");
 // (ii) modifier cet élément...
 
 // ... en ajoutant un attribut avec .setAttribute("nomAttribut","valeurAttribut")
-monLien.setAttribute("href","unil.ch");
+monLien.setAttribute("href","https://unil.ch");
 // ... en le remplissant avec .innerHTML("texte ou html")
 monLien.innerHTML = "Cliquez ici";
 // ... en ajoutant à l'élément la classe CSS "couleurRouge" avec classList.add('nomClasse')
@@ -50,7 +50,7 @@ Cherchez, via Devdocs ou via le MDN
 
 /* APPLICATION DE VOS CONNAISSANCES I
 
-Ajoutez à la page index.html, grâve au Javascript
+Ajoutez à la page index.html, grâce au Javascript
 
 1. un lien html
 2. une image de votre choix
