@@ -14,3 +14,4 @@ Les consignes plus précises sont disponibles sur la page de [résumé des séan
 - Lien vers [ce repo](https://github.com/johancuda/DevWeb-A2023)
 - [Résumé des séances](https://bit.ly/resumes-cours-ip)
 - lien de la page d'exemple : [page-web-simple](https://github.com/johancuda/page-web-simple)
+- [Check-list](https://app.simplenote.com/publish/VxGT4w)
