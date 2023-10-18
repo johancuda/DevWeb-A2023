@@ -21,7 +21,7 @@ ELEMENTS THEORIQUES
 
 Pour ajouter des éléments à une page il y a toujours trois étapes : (i) créer un élément, (ii) le modifier (attributs, styles) et (iii) l'ajouter à la page */
 
-// (i) créer un élément image avec createElement("nomBalise")
+// (i) créer un élément lien avec createElement("nomBalise")
 let monLien = document.createElement("a");
 
 // (ii) modifier cet élément...
@@ -57,6 +57,7 @@ Ajoutez à la page index.html, grâce au Javascript
 3. un paragraphe contenant la phrase "je déteste la COVID"
 4. un "br"
 5. changez la couleur du fond de la page en rouge
+ 
 6. ajoutez une classe ".enBleu" au fichier CSS
 7. liez cette classe au paragraphe sur la COVID
 8. ajoutez une liste d'éléments à la page (une balise "ul" contenant 2 balises "li" contenant du texte)
