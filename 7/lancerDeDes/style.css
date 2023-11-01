@@ -1,0 +1,14 @@
+div{
+    display : inline-block;
+    width: 25px;
+    height : 25px;
+    padding : 5px;
+    border-radius : 5px;
+    border-style: solid;
+    text-align: center;
+}
+
+.top {
+    background-color: rgb(201, 27, 56);
+    color : white;
+}
