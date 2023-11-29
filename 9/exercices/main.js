@@ -59,6 +59,10 @@ for(let i = 0; i< notes.length ; i++) {
 
 console.log(somme)
 
+// 1.3
+
+console.log(somme/notes.length)
+
 // 2.
 
 let chiffres = [2, 4, 7, 12, 32, 23, 12, 35, 65, 96]
