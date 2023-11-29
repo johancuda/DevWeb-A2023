@@ -1,0 +1,10 @@
+div{
+    border : 1px double aquamarine;
+    padding : 5px;
+    display: inline-block;
+}
+
+.impair{
+    border : 1px double red;
+    background-color: red;
+}
