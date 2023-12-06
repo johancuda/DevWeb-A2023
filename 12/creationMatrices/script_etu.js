@@ -64,10 +64,7 @@ function matriceUneCelluleSurDeux(size) {
   const tailleMatrice = prompt('Entrez la taille de la matrice :');
   if (tailleMatrice) {
     matriceCoins(tailleMatrice)
-    matriceDiagonale(tailleMatrice)
     matriceColonnesPaires(tailleMatrice)
-    matriceLignesPaires(tailleMatrice)
-    matriceBordure(tailleMatrice)
     matriceUneCelluleSurDeux(tailleMatrice)
   }
 
