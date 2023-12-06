@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrices Coloriées</title>
+  <style>
+    body{
+        background-color: black;
+    }
+    .cell {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #000;
+      background-color: purple;
+    }
+    .green {
+      background-color: aquamarine;
+    }
+
+    span{
+        display : inline-block
+    }
+
+  </style>
+</head>
+<body>
+
+<script>
+const br = document.createElement('br');
+  // Fonction pour créer une matrice avec des caractéristiques spécifiques
+  function createMatrix(size, characteristics) {
+
+    for (let i = 0; i < size; i++) {
+      for (let j = 0; j < size; j++) {
+        const cell = document.createElement('span');
+        cell.classList.add('cell');
+
+        // Appliquer les caractéristiques spécifiques à la cellule
+        if (characteristics === 'coins' && (i === 0 || i === size - 1) && (j === 0 || j === size - 1)) {
+          cell.classList.add('green');
+        } else if (characteristics === 'diagonales' && (i === j || i === size - 1 - j)) {
+          cell.classList.add('green');
+        } else if (characteristics === 'colonnesPaires' && j % 2 === 1) {
+          cell.classList.add('green');
+        } else if (characteristics === 'lignesPaires' && i % 2 === 1) {
+          cell.classList.add('green');
+        } else if (characteristics === 'bordure' && (i === 0 || i === size - 1 || j === 0 || j === size - 1)) {
+          cell.classList.add('green');
+        } else if (characteristics === 'uneCelluleSurDeux' && (i + j) % 2 === 1) {
+          cell.classList.add('green');
+        }
+        document.body.appendChild(cell);
+      }
+      const br = document.createElement('br');
+      document.body.appendChild(br);
+    }
+    const br = document.createElement('br');
+    document.body.appendChild(br);
+  }
+
+  // Récupérer la taille de la matrice depuis l'utilisateur
+  const tailleMatrice = prompt('Entrez la taille de la matrice :');
+  if (tailleMatrice) {
+    createMatrix(tailleMatrice, 'coins');
+    createMatrix(tailleMatrice, 'diagonales');
+    createMatrix(tailleMatrice, 'colonnesPaires');
+    createMatrix(tailleMatrice, 'lignesPaires');
+    createMatrix(tailleMatrice, 'bordure');
+    createMatrix(tailleMatrice, 'uneCelluleSurDeux');
+  }
+</script>
+
+</body>
+</html>
