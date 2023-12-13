@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>HELLO</p>
+    <script>
+        // fonction nommée ("somme")
+        function somme(nombre1,nombre2){
+            return nombre1+nombre2;
+        }
+
+        somme(4,5);
+
+        let elementHello = document.querySelector("p");
+        elementHello.addEventListener("click",function(){
+            console.log("Tu as cliqué sur p")
+        })
+        elementHello.addEventListener("dblclick",() => alert("Tu as double clické!"))
+
+
+    </script>
+</body>
+</html>
