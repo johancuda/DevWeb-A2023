@@ -15,7 +15,7 @@ div {
 }
 ```
 
-2. Modifiez le code de l'exercice 1.1 pour attribuer une couleur de fond (en `hsl`) aux cases en fonction de leur valeur (si vous avez un doute, sur le fonctionnement du `hsl` souvenez-vous de l'exercice 2.1 de la série T5).
+2. Modifiez le code de l'exercice 1.1 pour attribuer une couleur de fond (en `hsl`) aux cases en fonction de leur valeur (si vous avez un doute, sur le fonctionnement du `hsl`, regardez la doc!).
 3. Ajoutez un comportement aux divs. Lors d'un clic :
    1. Changez la valeur aléatoire contenue dans la div (avec, à nouveau, une valeur entre 1 et 36).
    2. Changez la couleur de fond de la div en fonction de sa nouvelle valeur.
@@ -23,8 +23,7 @@ div {
 ## Exercice 2 - Pixel art
 
 1. Dans le HTML, créez un `<input>` de type `"color"`.
-2. Créez une variable `couleur` qui vaut `"rgb(255,255,255)`".
-3. Créez une grille de 16x16 divs. Le contenu des divs est `"&nbsp;"`. Appliquez-leur le CSS suivant :
+2. Créez une grille de 16x16 divs. Le contenu des divs est `"&nbsp;"`. Appliquez-leur le CSS suivant :
 
 ```css
 div {
@@ -38,7 +37,7 @@ div {
 }
 ```
 
-4. Ajoutez un comportement à chaque div pour que, lors d'un clic, elle change de couleur pour la couleur sélectionnée dans l'input.
+3. Ajoutez un comportement à chaque div pour que, lors d'un clic, elle change de couleur pour la couleur sélectionnée dans l'input.
 
 ## (Avancé et optionnel) Exercice 3 - Matrice de données, bases démineur
 
