@@ -1,0 +1,13 @@
+
+.taken {
+    background-color: gold;
+}
+
+div{
+    background-color: grey;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid black;
+}
